@@ -21,7 +21,7 @@ variable "bucket-acl" {
 variable "versioning" {
   type        = string
   description = "(Optional) State of versionaing"
-  default     = "Disabled"
+  default     = "Enabled"
 }
 variable "sse_algorithm" {
   type        = string
